@@ -1,6 +1,12 @@
 #include<iostream>
+#include<math.h>
 using namespace std;
+void tt(int ar[])
+{
+   cout<<sizeof(ar);
+}
 int main()
 {
-    cout<<"I AM DEEPAK PANDEY";
+   int ar[5];
+   tt(ar);
 }
